@@ -1,0 +1,151 @@
+:root {
+    --clr-main-bg:  hsl(217, 54%, 11%);
+    --clr-card-bg: hsl(216, 50%, 16%);
+    --clr-line: hsl(215, 32%, 27%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-cyan: hsl(178, 100%, 50%);
+    --clr-soft-blue: hsl(215, 51%, 70%);
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+h4,
+p {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    color: var(--clr-soft-blue);
+    margin-block: 1em;
+}
+
+h4 {
+    color: var(--clr-white);
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-block: 1em;
+}
+
+h4:active, h4:hover {
+    color: var(--clr-cyan);
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.6rem;
+}
+
+.container {
+    width: 17rem;
+    border-radius: 0.8rem;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+
+.main-bg {
+    background-color: var(--clr-main-bg);
+}
+
+.card-bg {
+    background-color: var(--clr-card-bg);
+}
+
+.flex {
+    display: flex;
+}
+
+.center-y {
+    align-items: center;
+}
+
+.spread {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: 1em;
+}
+
+.avatar {
+    width: 30px;
+    aspect-ratio: 1;
+    border: 1px solid var(--clr-white);
+    border-radius: 20px;
+}
+
+.svg-box {
+    gap: 6px;
+    padding-bottom: 1em;
+}
+
+.svg-box>p {
+    margin-block: 0;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.small-font {
+    font-size: 17px;
+}
+
+.divider {
+    border-bottom: 1px solid var(--clr-line);
+}
+
+.eth-color {
+    color: var(--clr-cyan);
+}
+
+.font-white {
+    color: var(--clr-white);
+    margin-left: -0.6em;
+}
+
+.font-white:active, .font-white:hover {
+    color: var(--clr-cyan);
+    cursor: pointer;
+}
+
+.picture {
+    width: 272px;
+    aspect-ratio: 1;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 0.6rem;
+}
+
+.picture .view-svg {
+    display: none;
+}
+
+.picture:hover .view-svg {
+    display: block;
+}
+
+.picture:hover {
+    cursor: pointer;
+    background-color: var(--clr-soft-blue);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
