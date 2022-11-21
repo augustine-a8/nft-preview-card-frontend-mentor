@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [https://github.com/augustine-a8/nft-preview-card-frontend-mentor.git](https://your-solution-url.com)
--   Live Site URL: [https://augustine-a8.github.io/nft-preview-card-frontend-mentor/](https://your-live-site-url.com)
+-   Solution URL: [https://github.com/augustine-a8/nft-preview-card-frontend-mentor.git](https://github.com/augustine-a8/nft-preview-card-frontend-mentor.git)
+-   Live Site URL: [https://augustine-a8.github.io/nft-preview-card-frontend-mentor/](https://augustine-a8.github.io/nft-preview-card-frontend-mentor/)
 
 ## My process
 
