@@ -44,8 +44,6 @@ Users should be able to:
 
 Found out about the background-blend-mode css property and how it can be used to blend an image together with a color to yield amazing results
 
-To see how you can add code snippets, see below:
-
 ```css
 .picture:hover {
     cursor: pointer;
